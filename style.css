@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: digital;
+    src: url(./Font-style/DIGITALDREAM.ttf);
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap');*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80ced6;
+    
+}
+.calculator{
+   
+    padding: 20px;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0 0 30px #fff;
+}
+input{
+    width: 100%;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    text-align: right;
+    font-family: 'digital';
+    box-shadow: 0 0 10px #fff;
+}
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'digital';
+    box-shadow: 0 0 10px #fff;
+}
+.equal{
+    width: 115px;
+}
+
+button:hover{
+    
+    transform: scale(1.1);
+}
